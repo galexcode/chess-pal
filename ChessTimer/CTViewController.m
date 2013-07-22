@@ -23,7 +23,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.timerLabelA.transform = CGAffineTransformMakeRotation( M_PI );
+    self.timerBtnA.transform = CGAffineTransformMakeRotation( M_PI );
     _timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(substractTime) userInfo:nil repeats:YES];
     [self reset:nil];
 }
@@ -36,38 +36,38 @@
 
 - (IBAction)touchedTimerA:(id)sender {
     if (enabledA) {
-        [self.timerLabelA setEnabled:NO];
-        [self.timerLabelB setEnabled:YES];
+        [self.timerBtnA setEnabled:NO];
+        [self.timerBtnB setEnabled:YES];
         enabledA = NO;
         enabledB = YES;
-        [self.timerLabelA setAlpha:0.33];
-        [self.timerLabelB setAlpha:1.0];
+        [self.timerBtnA setAlpha:0.33];
+        [self.timerBtnB setAlpha:1.0];
     } else {
-        [self.timerLabelA setEnabled:YES];
-        [self.timerLabelB setEnabled:NO];
+        [self.timerBtnA setEnabled:YES];
+        [self.timerBtnB setEnabled:NO];
         enabledA = YES;
         enabledB = NO;
-        [self.timerLabelB setAlpha:0.33];
-        [self.timerLabelA setAlpha:1.0];
+        [self.timerBtnB setAlpha:0.33];
+        [self.timerBtnA setAlpha:1.0];
     }
 }
 
 - (IBAction)touchedTimerB:(id)sender {
     if (enabledB) {
-        [self.timerLabelB setEnabled:NO];
-        [self.timerLabelA setEnabled:YES];
+        [self.timerBtnB setEnabled:NO];
+        [self.timerBtnA setEnabled:YES];
         enabledB = NO;
         enabledA = YES;
-        [self.timerLabelB setAlpha:0.33];
-        [self.timerLabelA setAlpha:1.0];
+        [self.timerBtnB setAlpha:0.33];
+        [self.timerBtnA setAlpha:1.0];
         
     } else {
-        [self.timerLabelB setEnabled:YES];
-        [self.timerLabelA setEnabled:NO];
+        [self.timerBtnB setEnabled:YES];
+        [self.timerBtnA setEnabled:NO];
         enabledB = YES;
         enabledA = NO;
-        [self.timerLabelA setAlpha:0.33];
-        [self.timerLabelB setAlpha:1.0];
+        [self.timerBtnA setAlpha:0.33];
+        [self.timerBtnB setAlpha:1.0];
     }
 }
 
@@ -77,7 +77,7 @@
         if (_remainingTimeA == 0)
         {
             [self pause:nil];
-            [self.timerLabelA setEnabled:NO];
+            [self.timerBtnA setEnabled:NO];
         }
         [self updateTime:A];
     }
@@ -87,7 +87,7 @@
         if (_remainingTimeB == 0)
         {
             [self pause:nil];
-            [self.timerLabelB setEnabled:NO];
+            [self.timerBtnB setEnabled:NO];
         }
         [self updateTime:B];
     }
@@ -100,13 +100,13 @@
 
 - (IBAction)reset:(id)sender {
     enabledA = enabledB = NO;
-    [self.timerLabelA setEnabled:YES];
-    [self.timerLabelB setEnabled:YES];
+    [self.timerBtnA setEnabled:YES];
+    [self.timerBtnB setEnabled:YES];
     _remainingTimeA = _remainingTimeB = 6000;
     [self updateTime:A];
     [self updateTime:B];
-    [self.timerLabelA setAlpha:1.0];
-    [self.timerLabelB setAlpha:1.0];
+    [self.timerBtnA setAlpha:1.0];
+    [self.timerBtnB setAlpha:1.0];
 }
 
 - (void)updateTime: (TimerType)type {
@@ -116,11 +116,11 @@
     NSInteger milliseconds = time % 10;
     if (type == A)
     {
-        [self.timerLabelA setTitle:[NSString stringWithFormat:@"%02d:%02d:%01d",minutes, seconds, milliseconds] forState:UIControlStateNormal];
+        [self.timerBtnA setTitle:[NSString stringWithFormat:@"%02d:%02d:%01d",minutes, seconds, milliseconds] forState:UIControlStateNormal];
     }
     else
     {
-        [self.timerLabelB setTitle:[NSString stringWithFormat:@"%02d:%02d:%01d",minutes, seconds, milliseconds] forState:UIControlStateNormal];
+        [self.timerBtnB setTitle:[NSString stringWithFormat:@"%02d:%02d:%01d",minutes, seconds, milliseconds] forState:UIControlStateNormal];
    
     }
 }

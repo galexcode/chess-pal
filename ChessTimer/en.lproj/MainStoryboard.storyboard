@@ -95,8 +95,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="timerLabelA" destination="Hqw-mn-Uq0" id="2N9-pQ-LyX"/>
-                        <outlet property="timerLabelB" destination="maA-7c-nQa" id="P79-m2-Ov6"/>
+                        <outlet property="timerBtnA" destination="Hqw-mn-Uq0" id="wtP-ps-yB5"/>
+                        <outlet property="timerBtnB" destination="maA-7c-nQa" id="HTp-JT-AZz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -112,8 +112,8 @@
                 <relationship kind="action" name="reset:"/>
                 <relationship kind="action" name="touchedTimerA:"/>
                 <relationship kind="action" name="touchedTimerB:"/>
-                <relationship kind="outlet" name="timerLabelA" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="timerLabelB" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="timerBtnA" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="timerBtnB" candidateClass="UIButton"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">

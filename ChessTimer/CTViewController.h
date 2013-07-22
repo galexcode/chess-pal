@@ -15,7 +15,7 @@ typedef enum
 }TimerType;
 
 @interface CTViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIButton *timerLabelA;
-@property (weak, nonatomic) IBOutlet UIButton *timerLabelB;
+@property (weak, nonatomic) IBOutlet UIButton *timerBtnA;
+@property (weak, nonatomic) IBOutlet UIButton *timerBtnB;
 - (void)updateTime: (TimerType)type;
 @end
