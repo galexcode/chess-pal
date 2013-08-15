@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A4B4C74A179A5C7A009A224A"
                BuildableName = "ChessTimer.app"
-               BlueprintName = "ChessTimer"
-               ReferencedContainer = "container:ChessTimer.xcodeproj">
+               BlueprintName = "SuperChessTimer"
+               ReferencedContainer = "container:SuperChessTimer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4B4C74A179A5C7A009A224A"
             BuildableName = "ChessTimer.app"
-            BlueprintName = "ChessTimer"
-            ReferencedContainer = "container:ChessTimer.xcodeproj">
+            BlueprintName = "SuperChessTimer"
+            ReferencedContainer = "container:SuperChessTimer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4B4C74A179A5C7A009A224A"
             BuildableName = "ChessTimer.app"
-            BlueprintName = "ChessTimer"
-            ReferencedContainer = "container:ChessTimer.xcodeproj">
+            BlueprintName = "SuperChessTimer"
+            ReferencedContainer = "container:SuperChessTimer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A4B4C74A179A5C7A009A224A"
             BuildableName = "ChessTimer.app"
-            BlueprintName = "ChessTimer"
-            ReferencedContainer = "container:ChessTimer.xcodeproj">
+            BlueprintName = "SuperChessTimer"
+            ReferencedContainer = "container:SuperChessTimer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

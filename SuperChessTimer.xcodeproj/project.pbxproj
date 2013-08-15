@@ -21,14 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A4B4C74B179A5C7A009A224A /* ChessTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B4C74B179A5C7A009A224A /* SuperChessTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperChessTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B4C74E179A5C7A009A224A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A4B4C750179A5C7A009A224A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4B4C752179A5C7A009A224A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A4B4C756179A5C7A009A224A /* ChessTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChessTimer-Info.plist"; sourceTree = "<group>"; };
+		A4B4C756179A5C7A009A224A /* SuperChessTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperChessTimer-Info.plist"; sourceTree = "<group>"; };
 		A4B4C758179A5C7A009A224A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4B4C75A179A5C7A009A224A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A4B4C75C179A5C7A009A224A /* ChessTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChessTimer-Prefix.pch"; sourceTree = "<group>"; };
+		A4B4C75C179A5C7A009A224A /* SuperChessTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperChessTimer-Prefix.pch"; sourceTree = "<group>"; };
 		A4B4C75D179A5C7A009A224A /* CTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAppDelegate.h; sourceTree = "<group>"; };
 		A4B4C75E179A5C7A009A224A /* CTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAppDelegate.m; sourceTree = "<group>"; };
 		A4B4C760179A5C7A009A224A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		A4B4C742179A5C7A009A224A = {
 			isa = PBXGroup;
 			children = (
-				A4B4C754179A5C7A009A224A /* ChessTimer */,
+				A4B4C754179A5C7A009A224A /* SuperChessTimer */,
 				A4B4C74D179A5C7A009A224A /* Frameworks */,
 				A4B4C74C179A5C7A009A224A /* Products */,
 			);
@@ -65,7 +65,7 @@
 		A4B4C74C179A5C7A009A224A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4B4C74B179A5C7A009A224A /* ChessTimer.app */,
+				A4B4C74B179A5C7A009A224A /* SuperChessTimer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,7 +80,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A4B4C754179A5C7A009A224A /* ChessTimer */ = {
+		A4B4C754179A5C7A009A224A /* SuperChessTimer */ = {
 			isa = PBXGroup;
 			children = (
 				A4B4C75D179A5C7A009A224A /* CTAppDelegate.h */,
@@ -90,16 +90,17 @@
 				A4B4C76A179A5C7A009A224A /* CTViewController.m */,
 				A4B4C755179A5C7A009A224A /* Supporting Files */,
 			);
+			name = SuperChessTimer;
 			path = ChessTimer;
 			sourceTree = "<group>";
 		};
 		A4B4C755179A5C7A009A224A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A4B4C756179A5C7A009A224A /* ChessTimer-Info.plist */,
+				A4B4C756179A5C7A009A224A /* SuperChessTimer-Info.plist */,
 				A4B4C757179A5C7A009A224A /* InfoPlist.strings */,
 				A4B4C75A179A5C7A009A224A /* main.m */,
-				A4B4C75C179A5C7A009A224A /* ChessTimer-Prefix.pch */,
+				A4B4C75C179A5C7A009A224A /* SuperChessTimer-Prefix.pch */,
 				A4B4C760179A5C7A009A224A /* Default.png */,
 				A4B4C762179A5C7A009A224A /* Default@2x.png */,
 				A4B4C764179A5C7A009A224A /* Default-568h@2x.png */,
@@ -110,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4B4C74A179A5C7A009A224A /* ChessTimer */ = {
+		A4B4C74A179A5C7A009A224A /* SuperChessTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4B4C76E179A5C7A009A224A /* Build configuration list for PBXNativeTarget "ChessTimer" */;
+			buildConfigurationList = A4B4C76E179A5C7A009A224A /* Build configuration list for PBXNativeTarget "SuperChessTimer" */;
 			buildPhases = (
 				A4B4C747179A5C7A009A224A /* Sources */,
 				A4B4C748179A5C7A009A224A /* Frameworks */,
@@ -122,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = ChessTimer;
+			name = SuperChessTimer;
 			productName = ChessTimer;
-			productReference = A4B4C74B179A5C7A009A224A /* ChessTimer.app */;
+			productReference = A4B4C74B179A5C7A009A224A /* SuperChessTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +138,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Christian Idylle";
 			};
-			buildConfigurationList = A4B4C746179A5C7A009A224A /* Build configuration list for PBXProject "ChessTimer" */;
+			buildConfigurationList = A4B4C746179A5C7A009A224A /* Build configuration list for PBXProject "SuperChessTimer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -149,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4B4C74A179A5C7A009A224A /* ChessTimer */,
+				A4B4C74A179A5C7A009A224A /* SuperChessTimer */,
 			);
 		};
 /* End PBXProject section */
@@ -262,9 +263,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChessTimer/ChessTimer-Prefix.pch";
-				INFOPLIST_FILE = "ChessTimer/ChessTimer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ChessTimer/SuperChessTimer-Prefix.pch";
+				INFOPLIST_FILE = "ChessTimer/SuperChessTimer-Info.plist";
+				PRODUCT_NAME = SuperChessTimer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -273,9 +274,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChessTimer/ChessTimer-Prefix.pch";
-				INFOPLIST_FILE = "ChessTimer/ChessTimer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ChessTimer/SuperChessTimer-Prefix.pch";
+				INFOPLIST_FILE = "ChessTimer/SuperChessTimer-Info.plist";
+				PRODUCT_NAME = SuperChessTimer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -283,7 +284,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4B4C746179A5C7A009A224A /* Build configuration list for PBXProject "ChessTimer" */ = {
+		A4B4C746179A5C7A009A224A /* Build configuration list for PBXProject "SuperChessTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4B4C76C179A5C7A009A224A /* Debug */,
@@ -292,13 +293,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4B4C76E179A5C7A009A224A /* Build configuration list for PBXNativeTarget "ChessTimer" */ = {
+		A4B4C76E179A5C7A009A224A /* Build configuration list for PBXNativeTarget "SuperChessTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4B4C76F179A5C7A009A224A /* Debug */,
 				A4B4C770179A5C7A009A224A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

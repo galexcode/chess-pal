@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ChessTimer.xcodeproj">
+      location = "self:SuperChessTimer.xcodeproj">
    </FileRef>
 </Workspace>
