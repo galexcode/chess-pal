@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A44C5FE117BDAD7E00323BAA /* CPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A44C5FE017BDAD7E00323BAA /* CPMainViewController.m */; };
 		A4B4C74F179A5C7A009A224A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B4C74E179A5C7A009A224A /* UIKit.framework */; };
 		A4B4C751179A5C7A009A224A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B4C750179A5C7A009A224A /* Foundation.framework */; };
 		A4B4C753179A5C7A009A224A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B4C752179A5C7A009A224A /* CoreGraphics.framework */; };
@@ -17,10 +18,12 @@
 		A4B4C763179A5C7A009A224A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4B4C762179A5C7A009A224A /* Default@2x.png */; };
 		A4B4C765179A5C7A009A224A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4B4C764179A5C7A009A224A /* Default-568h@2x.png */; };
 		A4B4C768179A5C7A009A224A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B4C766179A5C7A009A224A /* MainStoryboard.storyboard */; };
-		A4B4C76B179A5C7A009A224A /* CPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B4C76A179A5C7A009A224A /* CPViewController.m */; };
+		A4B4C76B179A5C7A009A224A /* CPTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B4C76A179A5C7A009A224A /* CPTimerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A44C5FDF17BDAD7E00323BAA /* CPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPMainViewController.h; sourceTree = "<group>"; };
+		A44C5FE017BDAD7E00323BAA /* CPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPMainViewController.m; sourceTree = "<group>"; };
 		A4B4C74B179A5C7A009A224A /* ChessPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChessPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B4C74E179A5C7A009A224A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A4B4C750179A5C7A009A224A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -35,8 +38,8 @@
 		A4B4C762179A5C7A009A224A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A4B4C764179A5C7A009A224A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A4B4C767179A5C7A009A224A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A4B4C769179A5C7A009A224A /* CPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPViewController.h; sourceTree = "<group>"; };
-		A4B4C76A179A5C7A009A224A /* CPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPViewController.m; sourceTree = "<group>"; };
+		A4B4C769179A5C7A009A224A /* CPTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTimerViewController.h; sourceTree = "<group>"; };
+		A4B4C76A179A5C7A009A224A /* CPTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPTimerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +89,10 @@
 				A4B4C75D179A5C7A009A224A /* CPAppDelegate.h */,
 				A4B4C75E179A5C7A009A224A /* CPAppDelegate.m */,
 				A4B4C766179A5C7A009A224A /* MainStoryboard.storyboard */,
-				A4B4C769179A5C7A009A224A /* CPViewController.h */,
-				A4B4C76A179A5C7A009A224A /* CPViewController.m */,
+				A44C5FDF17BDAD7E00323BAA /* CPMainViewController.h */,
+				A44C5FE017BDAD7E00323BAA /* CPMainViewController.m */,
+				A4B4C769179A5C7A009A224A /* CPTimerViewController.h */,
+				A4B4C76A179A5C7A009A224A /* CPTimerViewController.m */,
 				A4B4C755179A5C7A009A224A /* Supporting Files */,
 			);
 			path = ChessPal;
@@ -176,7 +181,8 @@
 			files = (
 				A4B4C75B179A5C7A009A224A /* main.m in Sources */,
 				A4B4C75F179A5C7A009A224A /* CPAppDelegate.m in Sources */,
-				A4B4C76B179A5C7A009A224A /* CPViewController.m in Sources */,
+				A4B4C76B179A5C7A009A224A /* CPTimerViewController.m in Sources */,
+				A44C5FE117BDAD7E00323BAA /* CPMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
