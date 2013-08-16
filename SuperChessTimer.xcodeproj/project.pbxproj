@@ -90,8 +90,7 @@
 				A4B4C76A179A5C7A009A224A /* CTViewController.m */,
 				A4B4C755179A5C7A009A224A /* Supporting Files */,
 			);
-			name = SuperChessTimer;
-			path = ChessTimer;
+			path = SuperChessTimer;
 			sourceTree = "<group>";
 		};
 		A4B4C755179A5C7A009A224A /* Supporting Files */ = {
