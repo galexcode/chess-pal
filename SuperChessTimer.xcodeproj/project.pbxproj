@@ -262,8 +262,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChessTimer/SuperChessTimer-Prefix.pch";
-				INFOPLIST_FILE = "ChessTimer/SuperChessTimer-Info.plist";
+				GCC_PREFIX_HEADER = "SuperChessTimer/SuperChessTimer-Prefix.pch";
+				INFOPLIST_FILE = "SuperChessTimer/SuperChessTimer-Info.plist";
 				PRODUCT_NAME = SuperChessTimer;
 				WRAPPER_EXTENSION = app;
 			};
@@ -273,8 +273,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ChessTimer/SuperChessTimer-Prefix.pch";
-				INFOPLIST_FILE = "ChessTimer/SuperChessTimer-Info.plist";
+				GCC_PREFIX_HEADER = "SuperChessTimer/SuperChessTimer-Prefix.pch";
+				INFOPLIST_FILE = "SuperChessTimer/SuperChessTimer-Info.plist";
 				PRODUCT_NAME = SuperChessTimer;
 				WRAPPER_EXTENSION = app;
 			};
